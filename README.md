@@ -133,8 +133,6 @@ python script/evaluate_agent.py --quick  # 快速 9 题
 - **可选大数据**：接入 ClickHouse 后可加载真实用户行为数据集（1 亿行），Agent 亿级聚合秒级返回
 
 ---
-## 项目运行截图
-c:\Users\86138\Pictures\Screenshots\屏幕截图 2026-08-25 160916.png	
 ## 📄 License
 
 MIT
