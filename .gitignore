@@ -1,0 +1,39 @@
+# ============ 环境与密钥（脱敏核心）============
+# 后端环境变量（含 API 密钥/数据库密码），绝不上传
+backend/.env
+*.env
+.env.local
+
+# 会话记忆数据库（含对话内容，隐私）
+backend/.memory.db
+backend/.memory.db-shm
+backend/.memory.db-wal
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ============ Node / 前端 ============
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-error.log*
+
+# ============ 工作区/IDE ============
+.workbuddy/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============ 文档（按需排除） ============
+docs/
+
+# ============ 日志与临时 ============
+*.log
+*.tmp
